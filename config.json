@@ -1,0 +1,31 @@
+{
+    "algo": "cryptonight",
+    "background": false,
+    "colors": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "donate-level": 5,
+    "syslog": false,
+    "log-file": null,
+    "print-time": 5,
+    "av": 0,
+    "safe": false,
+    "max-cpu-usage": 75,
+    "cpu-priority": null,
+    "threads": null,
+    "pools": [
+        {
+            "url": "pool.electronero.org:6666",
+            "user": "etnk9YfpfKMeMxDbqZ5CD3B3mfCAbJvMgBHit6L7FTJyY2grairbZAmJTAP5c64Mu6R5MzJF6n2guMC9AbehEHA2A2Q5oc2Zzk.300",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": 1
+        }
+    ],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    }
+}
