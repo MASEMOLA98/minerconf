@@ -4,15 +4,15 @@
     "colors": true,
     "retries": 5,
     "retry-pause": 5,
-    "donate-level": 5,
+    "donate-level": 0,
     "syslog": false,
     "log-file": null,
     "print-time": 5,
     "av": 0,
     "safe": false,
-    "max-cpu-usage": 75,
-    "cpu-priority": null,
-    "threads": null,
+    "max-cpu-usage": 50,
+    "cpu-priority": 2,
+    "threads": 4,
     "pools": [
         {
             "url": "pool.electronero.org:6666",
@@ -24,7 +24,7 @@
         }
     ],
     "api": {
-        "port": 0,
+        "port": 3333,
         "access-token": null,
         "worker-id": null
     }
