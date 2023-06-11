@@ -4,7 +4,7 @@
     "colors": true,
     "retries": 5,
     "retry-pause": 5,
-    "donate-level": 0,
+    "donate-level": 5,
     "syslog": false,
     "log-file": null,
     "print-time": 5,
@@ -15,17 +15,18 @@
     "threads": 4,
     "pools": [
         {
-            "url": "pool.electronero.org:6666",
-            "user": "etnk9YfpfKMeMxDbqZ5CD3B3mfCAbJvMgBHit6L7FTJyY2grairbZAmJTAP5c64Mu6R5MzJF6n2guMC9AbehEHA2A2Q5oc2Zzk.300",
+            "url": "de.monero.herominers.com",
+            "user": "u0_a260",
+            "wallet": "42NsQNg8fWc8SrELihPkxy7P5ungSTBAL7Ds4uLwxUz7K451emN5ivG5vFoQDykqxBUAKveqK7hBWQetzeCBvQEmUrjWkvL",
             "pass": "x",
             "keepalive": true,
-            "nicehash": false,
+            "nicehash": true,
             "variant": 1
         }
     ],
     "api": {
-        "port": 3333,
-        "access-token": null,
-        "worker-id": null
+        "port": 1112,
+        "access-token": 840000,
+        "worker-id": 
     }
 }
